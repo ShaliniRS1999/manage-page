@@ -1,0 +1,348 @@
+body {
+    font-family: 'Be Vietnam', sans-serif;
+    font-size:16px;
+    position:static;
+}
+
+.top::before {
+        content: "";
+        position: absolute;
+        width: 120%;
+        height: 200%;
+        top:-350px;
+        left:0px;
+        z-index: -1;
+        background: url(img/bg-tablet-pattern.svg) no-repeat 0 0 ;
+        background-size:contain;
+        transform: rotate(-15deg);
+      }
+
+.logo {
+    margin-left:50px;
+}
+.navbar .nav-link {
+    color:hsl(228, 39%, 23%) !important;
+    font-size:1rem;
+    font-weight: 600;
+}
+
+.button1 {
+    background-Color:hsl(12, 79%, 63%);
+    border-radius:20px;
+    color:white;
+    font-weight:500;
+    font-size:16px;
+}
+
+.navbar .nav-link:hover {
+    color:hsl(227, 12%, 61%) !important;
+    
+}
+
+.button1:hover {
+    background-color:rgb(228, 85, 50);
+    color:white;
+    box-shadow:2px 2px 3px 3px rgb(236, 156, 136);
+}
+
+.heading {
+    padding-right:200px;
+}
+
+.heading h1 {
+    font-weight:700;
+    color:hsl(228, 39%, 23%);
+}
+
+.heading p {
+    font-weight:400;
+    color:hsl(227, 12%, 61%);
+}
+
+.intro {
+    padding-left:50px;
+}
+.intro img {
+    width:80%;
+}
+.button2 {
+    background-Color:hsl(12, 79%, 63%);
+    border-radius:20px;
+    color:white;
+    font-weight:500;
+}
+.button2:hover {
+    background-color:rgb(228, 85, 50);
+    color:white;
+    box-shadow:2px 2px 3px 3px rgb(236, 151, 129);
+}
+
+
+.section2-div1 {
+    padding-right:200px;
+}
+.section2-div1 h3 {
+    font-weight:700;
+    color:hsl(228, 39%, 23%);
+}
+.section2-div1 p {
+    font-weight:400;
+    color:hsl(227, 12%, 61%);
+    
+}
+
+.section2-div2 .btn3{
+    background-Color:hsl(12, 79%, 63%);
+    border-radius:20px;
+    color:white;
+    font-weight:500;
+    padding:3px 20px;
+}
+
+.section2-div2 .p1 {
+    font-weight:600;
+    color:hsl(228, 39%, 23%);
+}
+
+.section2-div2 .p2 {
+    font-weight:400;
+    color:hsl(227, 12%, 61%);
+    margin-left:100px;
+}
+
+
+.cards img {
+    position:absolute;
+    top:0px;
+    left:220px;
+    width:15%;
+}
+.card {
+    padding:30px;
+    margin-top:40px;
+}
+.card-title {
+    font-weight:600;
+    color:hsl(228, 39%, 23%);
+    margin-top:15px;
+}
+.card-text {
+        font-weight:400;
+        color:hsl(227, 12%, 61%);
+}
+    
+.button3 {
+        background-Color:hsl(12, 79%, 63%);
+        border-radius:20px;
+        color:white;
+        font-weight:500;
+        margin-top:30px;
+        margin-left:45rem;
+}
+.button3:hover {
+        background-color:rgb(228, 85, 50);
+        color:white;
+        box-shadow:2px 2px 3px 3px rgb(236, 151, 129);
+}
+    
+.middle::before {
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 80%;
+        top:800px;
+        left: -250px;
+        background: url(img/bg-tablet-pattern.svg) no-repeat 0 0 ;
+        background-size:contain;
+        transform: rotate(15deg);
+      
+}
+
+     
+    
+.section4 {
+    margin-top: 100px;
+    background-color:hsl(12, 88%, 59%);
+}
+.section4 h3 {
+    padding:30px 200px;
+}
+.section4 .btn {
+    background-color:white;
+    color:hsl(12, 88%, 59%);
+    border-radius:20px;
+    font-weight:500;
+    margin:40px 50px 30px 400px;
+}
+ .section5 img { 
+    filter:brightness(700%) saturate(8);
+    padding:30px 10px 20px 200px;
+}
+
+.icons {
+    color:white;
+    font-size: 20px;
+    padding-left:200px;
+}
+
+i:hover {
+    color:hsl(12, 88%, 59%);
+    cursor: pointer;
+}
+
+.section5 {
+    background-color:hsl(233, 12%, 13%);
+}
+.section5 ul {
+    padding:40px 10px 20px 150px;
+    color:white !important;
+}
+.section5 li:hover {
+    color:hsl(12, 88%, 59%) !important;
+    cursor: pointer;
+}
+.section5 .ul1 {
+    padding:40px 10px 20px 50px;
+    color:white !important;
+}
+
+form {
+    padding:40px 10px 50px 20px;
+}
+.email {
+    border-radius: 20px;
+    padding:5px;
+}
+.go {
+    color:white;
+    background-color:hsl(12,88%,59%);
+    border:1px solid hsl(12,88%,59%);
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+
+@media (max-width:376px) {
+    .navbar-collapse {
+        text-align: center;
+        border:2px solid hsl(227, 12%, 61%);
+        margin-top:10px;
+    }
+    .button1 {
+        display:none;
+    }
+    
+    .flow { display: flex; flex-flow: column-reverse; }
+    .heading {
+        padding:10px 50px 10px 10px;
+    }
+    
+    .heading h1 {
+        font-weight:700;
+        color:hsl(228, 39%, 23%);
+        font-size:25px;
+    }
+    .top::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top:-50px;
+        left: 0px;
+        background: url(img/bg-tablet-pattern.svg) no-repeat 0 0 ;
+        background-size:contain;
+        transform: rotate(0deg);
+      }
+    
+    .intro {
+        padding:10px;
+    }
+    .intro img {
+        width:100%;
+    }
+    .button2 {
+        margin-left:75px;
+    }
+    .section2-div1 {
+        padding:50px;
+    }
+    
+    .section2-div2 .btn3{
+        padding:3px 10px;
+    }
+    
+    .section2-div2 .p1 {
+        margin:0px;
+        background-color: hsl(13, 100%, 96%);
+        
+    }
+    
+    .section2-div2 .p2{
+        margin-left:0px;
+       padding:5px;
+    }
+    
+   
+        
+    .button3 {
+            margin-left:100px;
+    }
+
+    .middle::before {
+        content: "";
+        position: absolute;
+        width: 70%;
+        height: 80%;
+        top:700px;
+        left:50px;
+        background: url(img/bg-tablet-pattern.svg) no-repeat 0 0 ;
+        background-size:contain;
+        transform: rotate(15deg);
+      
+}
+.section4 h3 {
+        padding:20px 10px;
+    }
+.section4 .btn {
+        margin:20px 100px;
+    }    
+
+.section5 img { 
+        padding:20px  100px;
+    }
+    
+.icons {
+      font-size: 30px;
+        padding:20px;
+        text-align: center;
+    }
+.section5 ul {
+        padding:10px;
+       text-align: center;
+    }
+.section5 .ul1 {
+        padding:10px;
+        text-align: center;
+    }
+    
+    form {
+        padding:20px;
+        text-align: center;
+    }
+    .email {
+        border-radius: 20px;
+        padding:5px;
+    }
+    .go {
+        color:white;
+        background-color:hsl(12,88%,59%);
+        border:1px solid hsl(12,88%,59%);
+        border-radius: 20px;
+        padding: 5px 10px;
+    }
+    .copy {
+        margin-left:10px;
+        text-align: center;
+    }
+    
+}
